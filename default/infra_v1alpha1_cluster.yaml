@@ -6,7 +6,7 @@ metadata: # kpt-merge: /mec-new-eks-cluster
     nephio.org/region: us-central1
     nephio.org/site-type: aggregation
     nephio.org/site: edge-01
-    nephio.org/site-status: NotReady
+    nephio.org/site-status: Ready
   annotations:
     internal.kpt.dev/upstream-identifier: 'infra.nephio.org|Cluster|default|mec-new-eks-cluster'
 scaleProfileName: small-fixed-site
