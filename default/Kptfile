@@ -8,16 +8,16 @@ metadata: # kpt-merge: /default
 upstream:
   type: git
   git:
-    repo: https://github.com/sandeepAarna/nephio-test-deploy-01
-    directory: aws-eks
-    ref: aws-eks/v1
+    repo: https://github.com/sandeepAarna/infra-deployment.git
+    directory: default
+    ref: main
 upstreamLock:
   type: git
   git:
-    repo: https://github.com/sandeepAarna/nephio-test-deploy-01
-    directory: aws-eks
-    ref: aws-eks/v1
-    commit: aa4f2a6ee3503bda372e735aa331ecf3b9adcc1c
+    repo: https://github.com/sandeepAarna/infra-deployment.git
+    directory: default
+    ref: main
+    commit: 86411e81d25316e24a979168a279bc87d2531230
 info:
   description: sample description
 pipeline:
